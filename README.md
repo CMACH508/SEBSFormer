@@ -26,7 +26,3 @@ To run SEBSFormer, run
 ```
 run_Workload.sh
 ```
-
-## Pre-trained Models
-
-`checkpoints/finetune_seed/checkpoints.pth`, `checkpoints/finetune_tuab/checkpoints.pth`, `checkpoints/finetune_tuev/checkpoints.pth` are the trained model of SEBSFormer for three datasets.
