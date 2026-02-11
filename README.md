@@ -1,5 +1,5 @@
 # SEBSFormer
-This repository provides the official implementation of **SEBSFormer: A Spectral-Enhanced Bi-Stream Transformer for Robust EEG Decoding**.  The codebase is under active development and will be continuously updated.
+This repository provides the official implementation of **SEBSFormer: A Spectral-Enhanced Bi-Stream Transformer for Robust EEG Decoding**.
 
 ## Introduction
 
@@ -17,3 +17,16 @@ torchaudio==2.0.2
 
 pytorch-cuda=11.8
 
+## Test
+
+`modeling_finetuning.py` contains the DeaSTL model we proposed.
+
+To run SEBSFormer, run
+
+```
+run_Workload.sh
+```
+
+## Pre-trained Models
+
+`checkpoints/finetune_seed/checkpoints.pth`, `checkpoints/finetune_tuab/checkpoints.pth`, `checkpoints/finetune_tuev/checkpoints.pth` are the trained model of SEBSFormer for three datasets.
